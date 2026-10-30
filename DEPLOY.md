@@ -32,7 +32,7 @@ git push -u origin main
 
 | Setting | Value |
 |---------|-------|
-| **Repository** | `YOUR_USERNAME/spiderman-incident-priority` |
+| **Repository** | `selotechaitanya-svg/tcb_ml` |
 | **Branch** | `main` |
 | **Main file path** | `app/app.py` |
 
