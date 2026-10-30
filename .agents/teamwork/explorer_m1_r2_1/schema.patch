@@ -1,0 +1,17 @@
+--- a/src/db/schema.sql
++++ b/src/db/schema.sql
+@@ -5,4 +5,4 @@
+ CREATE TABLE IF NOT EXISTS users (
+   id INTEGER PRIMARY KEY AUTOINCREMENT,
+-  username TEXT NOT NULL UNIQUE,
+-  email TEXT NOT NULL UNIQUE,
++  username TEXT NOT NULL UNIQUE COLLATE NOCASE,
++  email TEXT NOT NULL UNIQUE COLLATE NOCASE,
+   password_hash TEXT NOT NULL,
+@@ -41,4 +41,4 @@
+ -- Indexes for Fast Lookups, Authentication, Filtering & Pagination
+-CREATE INDEX IF NOT EXISTS idx_users_username ON users(username);
+-CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
++CREATE INDEX IF NOT EXISTS idx_users_username ON users(username COLLATE NOCASE);
++CREATE INDEX IF NOT EXISTS idx_users_email ON users(email COLLATE NOCASE);
+ CREATE INDEX IF NOT EXISTS idx_incidents_reporter ON incidents(reporter_id);
