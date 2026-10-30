@@ -1,0 +1,12 @@
+{
+  "model": "LogisticRegression",
+  "params": {
+    "model__C": 63.95288218539363,
+    "model__class_weight": "None"
+  },
+  "rule": "Highest repeated CV macro-F1; if within 0.005, choose simpler/faster architecture",
+  "cv_f1_macro_mean": 0.8334,
+  "cv_f1_macro_std": 0.0176,
+  "beats_baseline": true,
+  "timestamp": "2026-10-29T18:34:38.636416+00:00"
+}

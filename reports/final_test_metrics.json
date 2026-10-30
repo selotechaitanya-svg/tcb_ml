@@ -1,0 +1,147 @@
+{
+  "chosen_model": {
+    "name": "LogisticRegression",
+    "metrics": {
+      "accuracy": 0.878125,
+      "balanced_accuracy": 0.8385185185185184,
+      "precision_macro": 0.8330664712693588,
+      "recall_macro": 0.8385185185185184,
+      "f1_macro": 0.8356346786675052,
+      "f1_weighted": 0.8781697549475582,
+      "mcc": 0.7369551637333576,
+      "quadratic_weighted_kappa": 0.7957446808510639,
+      "roc_auc_ovr_macro": 0.9606778900112234,
+      "log_loss": 0.3022784016120766,
+      "adjacent_error_share": 1.0
+    },
+    "confidence_intervals": {
+      "f1_macro": {
+        "point": 0.8356,
+        "ci_lower": 0.7851,
+        "ci_upper": 0.8801
+      },
+      "accuracy": {
+        "point": 0.8781,
+        "ci_lower": 0.8438,
+        "ci_upper": 0.9125
+      },
+      "balanced_accuracy": {
+        "point": 0.8385,
+        "ci_lower": 0.7849,
+        "ci_upper": 0.8901
+      }
+    },
+    "quadratic_weighted_kappa": 0.7957,
+    "adjacent_error_share": 1.0,
+    "cv_f1_macro_mean": 0.8334,
+    "cv_f1_macro_std": 0.0176
+  },
+  "baselines": {
+    "DummyMostFrequent": {
+      "accuracy": 0.703125,
+      "balanced_accuracy": 0.3333333333333333,
+      "precision_macro": 0.234375,
+      "recall_macro": 0.3333333333333333,
+      "f1_macro": 0.27522935779816515,
+      "f1_weighted": 0.5805619266055047,
+      "mcc": 0.0,
+      "quadratic_weighted_kappa": 0.0,
+      "roc_auc_ovr_macro": 0.5,
+      "log_loss": 10.700459599894154,
+      "adjacent_error_share": 1.0
+    },
+    "LogisticRegression_default": {
+      "accuracy": 0.86875,
+      "balanced_accuracy": 0.7785185185185185,
+      "precision_macro": 0.8509890504015326,
+      "recall_macro": 0.7785185185185185,
+      "f1_macro": 0.8101088976004949,
+      "f1_weighted": 0.8648996838649226,
+      "mcc": 0.7020910329505903,
+      "quadratic_weighted_kappa": 0.7584905660377359,
+      "roc_auc_ovr_macro": 0.9605940102782208,
+      "log_loss": 0.29475068088813483,
+      "adjacent_error_share": 1.0
+    }
+  },
+  "all_models": {
+    "DummyMostFrequent": {
+      "accuracy": 0.703125,
+      "balanced_accuracy": 0.3333333333333333,
+      "precision_macro": 0.234375,
+      "recall_macro": 0.3333333333333333,
+      "f1_macro": 0.27522935779816515,
+      "f1_weighted": 0.5805619266055047,
+      "mcc": 0.0,
+      "quadratic_weighted_kappa": 0.0,
+      "roc_auc_ovr_macro": 0.5,
+      "log_loss": 10.700459599894154,
+      "adjacent_error_share": 1.0
+    },
+    "LogisticRegression_default": {
+      "accuracy": 0.86875,
+      "balanced_accuracy": 0.7785185185185185,
+      "precision_macro": 0.8509890504015326,
+      "recall_macro": 0.7785185185185185,
+      "f1_macro": 0.8101088976004949,
+      "f1_weighted": 0.8648996838649226,
+      "mcc": 0.7020910329505903,
+      "quadratic_weighted_kappa": 0.7584905660377359,
+      "roc_auc_ovr_macro": 0.9605940102782208,
+      "log_loss": 0.29475068088813483,
+      "adjacent_error_share": 1.0
+    },
+    "LogisticRegression": {
+      "accuracy": 0.878125,
+      "balanced_accuracy": 0.8385185185185184,
+      "precision_macro": 0.8330664712693588,
+      "recall_macro": 0.8385185185185184,
+      "f1_macro": 0.8356346786675052,
+      "f1_weighted": 0.8781697549475582,
+      "mcc": 0.7369551637333576,
+      "quadratic_weighted_kappa": 0.7957446808510639,
+      "roc_auc_ovr_macro": 0.9606778900112234,
+      "log_loss": 0.3022784016120766,
+      "adjacent_error_share": 1.0
+    },
+    "RandomForest": {
+      "accuracy": 0.790625,
+      "balanced_accuracy": 0.7111111111111111,
+      "precision_macro": 0.7149491257321192,
+      "recall_macro": 0.7111111111111111,
+      "f1_macro": 0.7129084620373819,
+      "f1_weighted": 0.7905357926046079,
+      "mcc": 0.5446433104892834,
+      "quadratic_weighted_kappa": 0.6453853787628183,
+      "roc_auc_ovr_macro": 0.8916768858172367,
+      "log_loss": 0.6234132667896867,
+      "adjacent_error_share": 1.0
+    },
+    "HistGradientBoosting": {
+      "accuracy": 0.80625,
+      "balanced_accuracy": 0.7703703703703703,
+      "precision_macro": 0.7314026851165472,
+      "recall_macro": 0.7703703703703703,
+      "f1_macro": 0.7490447195101225,
+      "f1_weighted": 0.8093939720636889,
+      "mcc": 0.6000032345183256,
+      "quadratic_weighted_kappa": 0.6927365649682515,
+      "roc_auc_ovr_macro": 0.9265133203378818,
+      "log_loss": 0.42688249389434585,
+      "adjacent_error_share": 1.0
+    },
+    "KNN": {
+      "accuracy": 0.725,
+      "balanced_accuracy": 0.4807407407407407,
+      "precision_macro": 0.637483596604429,
+      "recall_macro": 0.4807407407407407,
+      "f1_macro": 0.5140062274952256,
+      "f1_weighted": 0.6869085626932001,
+      "mcc": 0.2882930053486931,
+      "quadratic_weighted_kappa": 0.36101656455638753,
+      "roc_auc_ovr_macro": 0.7191256423888003,
+      "log_loss": 2.8269333208959972,
+      "adjacent_error_share": 1.0
+    }
+  }
+}

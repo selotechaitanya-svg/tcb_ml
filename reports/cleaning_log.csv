@@ -1,0 +1,3 @@
+action,column,reason,affected
+drop_column,incident_id,ID unique per row,1600
+summary,all,"(1600,14) -> (1600,13)",0

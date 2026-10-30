@@ -1,0 +1,13 @@
+column,mutual_info,single_feature_f1_macro,reason_flagged,decision,confidence
+incident_type,0.1448,0.4545,none,keep,high
+civilians_at_risk,0.0117,0.2801,none,keep,high
+response_delay_minutes,0.0322,0.2779,Semantic ambiguity: could represent observed post-dispatch elapsed delay,NEEDS HUMAN REVIEW,medium
+villain,0.0337,0.2752,none,keep,high
+weather,0.0067,0.2752,none,keep,high
+location,0.0535,0.2752,none,keep,high
+property_damage_level,0.0313,0.2752,none,keep,high
+time_of_day,0.0098,0.2752,none,keep,high
+web_trap_strength,0.0319,0.2752,none,keep,high
+spider_sense_alert,0.0154,0.2752,none,keep,high
+backup_status,0.0239,0.2752,none,keep,high
+villain_escape_risk,0.0404,0.2752,none,keep,high

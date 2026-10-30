@@ -1,0 +1,185 @@
+{
+  "model_name": "LogisticRegression",
+  "best_params": {
+    "model__C": 63.95288218539363,
+    "model__class_weight": "None"
+  },
+  "class_labels": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "target_name": "response_priority",
+  "input_schema": {
+    "villain": {
+      "kind": "categorical",
+      "categories": [
+        "Kingpin",
+        "The Lizard",
+        "Sandman",
+        "Mysterio",
+        "Prowler",
+        "Doctor Octopus",
+        "Venom",
+        "Green Goblin"
+      ],
+      "frequencies": [
+        178,
+        173,
+        164,
+        164,
+        158,
+        155,
+        146,
+        142
+      ]
+    },
+    "incident_type": {
+      "kind": "categorical",
+      "categories": [
+        "Public Attack",
+        "Portal Disturbance",
+        "Vehicle Chase",
+        "Robbery",
+        "Lab Break-In",
+        "Hostage Rescue",
+        "Reactor Sabotage"
+      ],
+      "frequencies": [
+        213,
+        202,
+        178,
+        176,
+        175,
+        175,
+        161
+      ]
+    },
+    "location": {
+      "kind": "categorical",
+      "categories": [
+        "Times Square",
+        "Brooklyn",
+        "Stark Tower",
+        "Harlem",
+        "Manhattan",
+        "Queens",
+        "Oscorp Labs"
+      ],
+      "frequencies": [
+        193,
+        189,
+        189,
+        186,
+        185,
+        173,
+        165
+      ]
+    },
+    "weather": {
+      "kind": "categorical",
+      "categories": [
+        "Clear",
+        "Rain",
+        "Storm",
+        "Fog"
+      ],
+      "frequencies": [
+        621,
+        317,
+        194,
+        148
+      ]
+    },
+    "time_of_day": {
+      "kind": "categorical",
+      "categories": [
+        "Night",
+        "Afternoon",
+        "Evening",
+        "Morning"
+      ],
+      "frequencies": [
+        341,
+        334,
+        307,
+        298
+      ]
+    },
+    "civilians_at_risk": {
+      "kind": "numeric",
+      "min": 7.0,
+      "median": 18.0,
+      "max": 36.0
+    },
+    "property_damage_level": {
+      "kind": "numeric",
+      "min": 1.0,
+      "median": 5.0,
+      "max": 10.0
+    },
+    "web_trap_strength": {
+      "kind": "numeric",
+      "min": 1.0,
+      "median": 5.0,
+      "max": 10.0
+    },
+    "spider_sense_alert": {
+      "kind": "categorical",
+      "categories": [
+        "Low",
+        "Moderate",
+        "High"
+      ],
+      "frequencies": [
+        441,
+        420,
+        419
+      ]
+    },
+    "backup_status": {
+      "kind": "categorical",
+      "categories": [
+        "Available",
+        "Delayed",
+        "Unavailable"
+      ],
+      "frequencies": [
+        688,
+        362,
+        230
+      ]
+    },
+    "villain_escape_risk": {
+      "kind": "numeric",
+      "min": 1.0,
+      "median": 5.0,
+      "max": 10.0
+    },
+    "response_delay_minutes": {
+      "kind": "numeric",
+      "min": 1.0,
+      "median": 10.0,
+      "max": 24.0
+    }
+  },
+  "python_version": "3.14.7",
+  "pandas_version": "3.1.0",
+  "numpy_version": "2.5.4",
+  "sklearn_version": "1.9.1",
+  "seed": 42,
+  "dataset_sha256": "107470934a1697e017be90907fd640a03ad6cabdf8d2b9f7f34e61bfd1bf045b",
+  "final_test_metrics": {
+    "accuracy": 0.878125,
+    "balanced_accuracy": 0.8385185185185184,
+    "precision_macro": 0.8330664712693588,
+    "recall_macro": 0.8385185185185184,
+    "f1_macro": 0.8356346786675052,
+    "f1_weighted": 0.8781697549475582,
+    "mcc": 0.7369551637333576,
+    "quadratic_weighted_kappa": 0.7957446808510639,
+    "roc_auc_ovr_macro": 0.9606778900112234,
+    "log_loss": 0.3022784016120766,
+    "adjacent_error_share": 1.0
+  }
+}
